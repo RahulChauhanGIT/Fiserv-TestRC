@@ -1,0 +1,32 @@
+-In "Test.java" file
+    - Write a main method
+        - initialize character arrays data like below
+        char[] math = {'M', 'a', 't', 'h'};
+        char[] grade10 = {'G', 'r', 'a', 'd', 'e', ' ', '1', '0'};
+
+        - Create the Objects for Subject Class and pass the below values while creating the objects
+        subjectId is 101
+        subjectNames is above math array
+
+        - Create the Objects for ClassRoom Class and pass the below values while creating the objects
+        classId is 1
+        classNames is aboe grade10 array
+
+        - Create Object for Student class and pass the below values while creating the objects
+        id is 1
+        age is 16
+        Gender is 'M'
+        rollNumber is 101
+        ClassRoom is above Classroom ObjectReference
+
+        - Create Object for Teacher class and pass the below values while creating the objects
+        id is 101
+        age is 35
+        Gender is 'F'
+        rollNumber is 101
+        Specialization is above Subject class ObjectReference
+        experienceYears is 10
+
+        - Now call the 
+        Student class overriding method
+        Teacher class overriding method
