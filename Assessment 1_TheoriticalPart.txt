@@ -1,0 +1,46 @@
+Selenium Web Driver :::::
+Assignment #1 ----
+
+Question - 
+What is the Difference between 
+driver.get(“***********”) & driver.navigate().to(“**********”) methods
+
+Answer -
+driver.get - will launch the url and will wait till page loads
+driver.navigate().to - will launch the Url but will not wait till page load and execute next line of code.
+
+Question -
+What is the Difference between driver.close() & driver.quit() methods
+Ans -
+driver.close() - close the current browser tab
+driver.quit() - kill all browser sessions launched thru WebDriver
+
+Que -
+Write a Code snippet to load the Edge browser
+Ans-
+WebDriver driver = new EdgeDriver();
+
+Que-
+List out the Implementation classes of Selenium WebDriver
+Ans-
+BY id ()
+By name ()
+By class ()
+By Linktext ()
+By PartialLinkText ()
+By tagName ()
+By xpath ()
+By cssSelector ()
+
+Que-
+ist out all ‘8’ different locators
+Ans-
+ID
+Class
+Name
+linktext
+PartialLinkText
+Tagname
+Xpath
+CSSSelector
+
